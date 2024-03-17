@@ -1,10 +1,3 @@
-#include<stdint.h>
-#include<stm32f401xe.h>
-#include "Timer.h"
-#include "SystemClock.h"
-
-
-
 #define led_on 		GPIOD->ODR |= 1<<13
 #define led_off		GPIOD->ODR &= ~(1<<13)
 #define led_is_off	(GPIOD->ODR & 1<<13) == 0
