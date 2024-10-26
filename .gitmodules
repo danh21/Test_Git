@@ -1,0 +1,3 @@
+[submodule "PyPong-Game"]
+	path = PyPong-Game
+	url = git@github.com:danh21/PyPong-Game.git
